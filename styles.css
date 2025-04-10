@@ -1,0 +1,17 @@
+
+
+.pokemon-card{
+
+    background-color: lightgrey;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+    box-sizing: border-box;
+    position: absolute;
+    text-align: center;
+}
+
+.pokemon-info {
+
+    background-color: white;
+}
+
