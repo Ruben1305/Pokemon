@@ -3,18 +3,18 @@ body{
     display: grid;
     place-content: center;
     padding-top: 2.5cm;
- 
+   
 
 }
 
 .pokemon-card{
 
     background-color: lightgrey;
-    border-radius: 20px;
+    border-radius: 40px;
     box-shadow: 5px 5px 10px black;
     padding: 20px;
     text-align: center;
-    height: 75vh;
+   
     
 
 }
@@ -22,39 +22,50 @@ body{
 .pokemon-info {
 
     background-color: lightgreen;
-    border-radius: 20px;
+    border-radius: 40px;
     padding: 15px;
+    max-width: 550px;
+
 }
 
 .pokemon-image {
 
-    max-width: 10000px;
-    border-radius: 20px;
-    padding: 15px;
-    
+    max-width: 550px;
+    border-radius: 40px;
+    padding: 17px;
+
 }
 
 .pokemon-name {
 
     font-style: italic;
     color:red;
-
+    font-size: 30px;
 }
 
 .pokemon-type {
 
-    
-    padding: 5px;
+    padding: 15px;
+    font-size: 20px;
 
 }
 
 .pokemon-description {
 
-    font-size: 12px;
+    font-size: 14px;
     color: grey;
 
 }
 
 
+.plant {
 
+    color:green;
 
+}
+
+.poison {
+
+    color:purple;
+
+}
